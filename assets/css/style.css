@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.header-color {
+    background-color: #eba215;
+    position: relative;
+}
+
+.header-list {
+    font-size: 0.95em;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+.language img {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.bo_tron_goc_anh {
+    border-radius: 20px;
+}
+
+.can_chinh_ngay_ngan {
+    text-align: justify;
+}
+
+ul li {
+    list-style: none;
+}
+
+.vi_tri_relative {
+    position: relative;
+}
+.vi_tri_absolute {
+    position: absolute;
+}
+
+/* navbar */
+
+
+
+.container .row .img__logo{
+    width: auto;
+    max-height: 115px;
+}
+.o_giua {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.list-items {
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.list-items li {
+    display: inline-flex;
+    align-items: center;
+}
+
+.list-items>li {    
+    padding: 0;
+    list-style-type: none;
+}
+
+.sub_menu {
+    display: none;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    border: 3px solid #eba215;
+    font-size: 16px;
+}
+
+.sub_menu li {
+    display: block;
+}
+
+.list-items li>a {
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    padding:0 8px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    height: 100%; /* Sử dụng 100% để chiếm toàn bộ chiều cao của li */
+}
+
+.sub_list_menu {
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+.menu_phu:hover .sub_menu  {
+    display: block ;
+}
+
+.sub_list_menu:hover {
+    background-color: #FFE4B8;
+  }
+.row .icon_navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.ti-search,.ti-shopping-cart-full {
+    font-weight: 700;
+}
+
+.navbar-icons:hover .ti-search .search{
+    display: block;
+    border-radius: 5px solid #eba215;
+}
+
+/* mobile menu */
+#mobile-menu,.navbar_icons_mobile,
+.img__logo_mobile ,.search {
+    display: none;
+}
+
+/*  Ảnh  */
+.row-bottom {
+    font-size: 32px;
+    border-bottom: 3px solid #ccc;
+}
+
+.anh__long__anh1 img{
+    border-radius: 20px;    
+}
+
+
+
+.text-container > .vi__dieu {
+    padding: 5% 5% 5% 5%;
+    margin: -50px 0 0px 0px;
+    border-radius: 5px;
+}
+
+
+.part-recommend h2 {
+    text-align: center;
+}
+
+/* quy trình sản xuất */
+
+/* chuyển slide */
+
+.slider_carousel .owl-prev, .slider_carousel .owl-next {
+	width: 40px;
+	height: 40px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+}
+
+.slider_carousel .owl-next {
+    right: -50px;
+}
+
+.slider_carousel .owl-prev {
+    left: -50px;
+}
+.owl-carousel .owl-nav.disabled {
+     display: inherit;
+}
+.can_anh_giua img{ 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* <!-- giới thiệu quy mô xưởng --> */
+
+.do-cao-anh {
+    height: 393px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.anh_dec img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* link tiktok */
+.bo_vien_khung {
+    border: 3px solid black;
+    border-style: dashed;
+}
+
+
+
+/*   <!-- dịch vụ sản xuất bánh healthy --> */
+
+.tao-bong-img {
+    margin: 0 10px 0 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px  4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tao-bong-img:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.tao-bong-img p {
+    padding-top:  auto;
+    padding-bottom: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/*     <!-- review khách hàng --> */
+
+.background_mau {
+    background-size: contain !important;
+    background: #fff;
+    background-image: url('../images/review/background.png') ;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 18px;
+}
+
+.can_le {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.background_mau img {
+    padding: 0 15px;
+}
+
+
+.anh-review {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+/* <!-- các dòng sản phẩm --> */
+
+.box-image {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-control-next-icon {
+    transform: translateX(92px);
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    padding: 100% 0;
+}
+
+.carousel-control-prev-icon {
+    transform: translateX(-105px);
+}
+
+del span.amount {
+    font-weight: 400;
+    margin-right: .3em;
+    opacity: .6;
+}
+
+.title_combo a {
+    color: #1F1F1F;
+    font-size: .9375em;
+    font-weight: 700;
+    line-height: 21px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: relative;
+    line-height: 1.4 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: calc(1em* 1.4* 2);
+}
+
+.price {
+    text-align: center;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #eba215;
+}
+
+/* nút chuyển slide */
+
+
+/* <!-- bài viết chuyên đề " Kinh Doanh Làm Bánh" --> */
+
+.card-text {
+    font-size: 0.8em;
+    opacity: .8;
+}
+.plain {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+/* <!-- Liên hệ với chuyên viên tư vấn --> */
+
+.anh_tron img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-items: center;
+    border-radius: 100%;
+}
+
+.detail_cv {
+    font-weight: 500;
+}
+
+.detail_dec {
+    font-size: 16px;
+    opacity: .8;
+}
+
+.ti-tablet a {
+    text-decoration: none;
+}
+
+
+/* footer */
+.bo_gach_chan a,
+.bo_gach_chan p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
+.bo_gach_chan a:hover,
+.bo_gach_chan p a:hover {
+    color: #eba215;
+}
+

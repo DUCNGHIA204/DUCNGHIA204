@@ -1,0 +1,63 @@
+@media (min-width: 850px) {
+    .text-container > .vi__dieu {
+        padding: 8% 8% 5% 8%;
+        /* margin: -290px 0px 0px 0px; */
+    }
+}
+
+@media (max-width:850px)  {
+    html {
+        background-color: rgba(255, 220, 22, 0.932);
+    }
+
+    #header,.list-items,.img__logo,.khong_VND {
+        display: none !important;
+    }
+
+    .nav_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile-menu,.navbar_icons_mobile,
+    .img__logo_mobile {
+        display: block;
+    }
+
+    
+
+    .img__logo_mobile {
+        width: auto;
+        max-height: 115px;
+    }
+
+    .o_giua {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+
+}
+
+@media ( min-width:992px ){
+    .text-container > .vi__dieu {
+            padding: 6% 8% 5% 8%;
+        }
+
+    .col-22 {
+        flex: 0 0 auto;
+        width: 22%;
+    }
+    .col-225 {
+            flex: 0 0 auto;
+            width: 24%;
+    }
+
+    .col-30 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+
+}
+
